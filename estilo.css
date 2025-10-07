@@ -1,0 +1,30 @@
+/* aplica a página inteira */
+body{
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove espaçamento padrão*/
+    height: 100vh; /* vh - altura total da tela (viewport height) */
+    width: 100vw; /* largura total da tela(viewport width */ 
+    background-image: url('Img/pngtree-purple-smoke-in-dark-background-image_320078.jpg');/* caminho da imagerm de fundo */
+    background-size: cover; /* faz a imagem cobrir a tela toda */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /*Evita que a imagem repita na tela */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*estilo para o contauiner do grid*/
+.container{
+    display: grid; /*ativa o grid do layout*/
+    grid-template-columns: repeat(3, 1fr); /* cria 3 colunas com larguiras iguais (1fr= fração do espaço disponivel*/
+    gap: 20px; /*espaço entre os itens do grid*/
+    padding: 20px;
+}
+/*estilo para os itens dentro do grid*/
+.item{
+    border:  1px solid white;
+    background-color:  transparent;
+    color: white;
+    padding: 20px; 
+    text-align: center;
+    font-size: 1.5em; /*aumenta a fonte de acordo com a largura da página*/
+    border-radius: 8px;
+}
+
