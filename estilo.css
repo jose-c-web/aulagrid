@@ -4,7 +4,7 @@ body{
     padding: 0; /* Remove espaçamento padrão*/
     height: 100vh; /* vh - altura total da tela (viewport height) */
     width: 100vw; /* largura total da tela(viewport width */ 
-    background-image: url('Img/pngtree-purple-smoke-in-dark-background-image_320078.jpg');/* caminho da imagerm de fundo */
+    background-image: url('pngtree-purple-smoke-in-dark-background-image_320078.jpg');/* caminho da imagerm de fundo */
     background-size: cover; /* faz a imagem cobrir a tela toda */
     background-position: center; /* centraliza a imagem */
     background-repeat: no-repeat; /*Evita que a imagem repita na tela */
@@ -27,4 +27,5 @@ body{
     font-size: 1.5em; /*aumenta a fonte de acordo com a largura da página*/
     border-radius: 8px;
 }
+
 
