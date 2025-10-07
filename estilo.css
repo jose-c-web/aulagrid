@@ -28,9 +28,10 @@ body{
     border-radius: 8px;
 }
 
-item:hover{
+.item:hover{
     padding: 25px;
     background-color: blueviolet;
     border: 1px solid black;
     border-radius: 10px;
 }
+
